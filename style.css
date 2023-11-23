@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+#logo {
+    width: 160px;
+    margin: 30px;
+}
+
+.nav {
+    padding: 20px;
+    margin: auto;
+    display: table;
+}
+
+.nav ul li {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    font-size: 23px;
+    font-weight: 200px;
+}
+
+.nav ul li:hover{
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#first {
+    align-items: center;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+
+.i-1 img {
+    margin: 20px;
+    width: 245px;
+}
+.i-1 p{
+    text-align: center;
+}
+.i-2 img{
+    height: 365px;
+}
+
+
+.btn a {
+    background-color: #e8b448;
+    color: black;
+    margin: auto;
+    display:table;
+    padding: 5px;
+    width: 100px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#w-1 {
+    font-size: 50px;
+    margin: auto;
+    display: table;
+}
+
+#w-2 {
+    display: table;
+    margin: auto;
+}
+
+
+/* ----------------For Small Screen ------------- */
+
+
+
+
+@media only screen and (max-width:600px) {
+
+
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    #logo {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        width: 100px;
+    }
+
+    .nav {
+        padding: 2px;
+        margin: auto;
+        display: table;
+    }
+
+    .nav ul li  {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 15px;
+    }
+
+    #first {
+        display:grid;
+        justify-content: center;
+    }
+
+    #w-1 {
+        padding: 20px;
+        font-size: 23px;
+        margin-top: 15px;
+        display: table;
+    }
+
+    .i-1 img {
+        padding: 10px;
+        width: 300px;
+        margin: auto;
+    }
+
+    .btn a {
+        background-color: rgb(247, 138, 15);
+        color: rgb(255, 255, 255);
+        margin: auto;
+        display: inline-block;
+        padding: 7px;
+        width: 300px;
+        border-radius: 15px;
+    }
+
+    #w-2 {
+        padding: 10px;
+        font-size: 30px;
+        margin: auto;
+        display: table;
+    }
+
+   
+}
+
+
+
+
+
+
+
+
+
+
